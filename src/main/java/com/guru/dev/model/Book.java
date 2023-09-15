@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 
 @Entity
-@NamedQuery(name = "findBookH2G2", query = "SELECT b FROM Book b WHERE b.title ='H2G2'")
+@NamedQuery(name = "findBookJEE", query = "SELECT b FROM Book b WHERE b.title ='JEE'")
 public class Book {
     @Id
     @GeneratedValue
